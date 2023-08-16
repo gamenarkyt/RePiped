@@ -14,7 +14,7 @@ export const TrendPage: FC = ({}) => {
   // const [data, setData] = useState<ITrendingVideo[]>();
 
   if (isLoading) return "loading...";
-  if (error) return `Error: ${error.message}`;
+  if (error) return `Error: `;
   if (!videos) return "Data not found";
 
   return (

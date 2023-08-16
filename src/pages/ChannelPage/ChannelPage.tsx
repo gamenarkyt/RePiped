@@ -2,7 +2,6 @@ import { FC, useEffect } from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router-dom";
 import { Api } from "../../services/piped.service";
-import { VideoCard } from "../../components/business/VideoCard/VideoCard";
 import styles from "./ChannelPage.module.scss";
 import { Chip } from "../../components/ui/Chip/Chip";
 
@@ -25,7 +24,7 @@ export const ChannelPage: FC = () => {
   }, [channel, channelId]);
 
   if (isLoading) return "Loading...";
-  if (error) return `Error: ${error.message}`;
+  if (error) return `Error: `;
   if (!channel) return "Data not found";
 
   return (
