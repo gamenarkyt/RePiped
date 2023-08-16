@@ -1,4 +1,3 @@
-"use client";
 import { FC } from "react";
 import { VideoCard } from "../../components/business/VideoCard/VideoCard";
 import { Api } from "../../services/piped.service";
@@ -21,8 +20,6 @@ export const TrendPage: FC = ({}) => {
   return (
     <div className={styles.container}>
       {videos.map((video) => {
-        console.log(video.uploaderUrl);
-
         return (
           <VideoCard
             thumbnailUrl={video.thumbnail}

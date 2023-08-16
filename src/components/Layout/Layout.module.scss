@@ -1,8 +1,4 @@
 .layout {
-  display: grid;
-  grid-template-rows: 50px 1fr;
-
-  .sidebarcontainer {
-    position: relative;
-  }
+  display: flex;
+  flex-direction: column;
 }

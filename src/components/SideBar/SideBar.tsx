@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import { FC, useState } from "react";
 import styles from "./SideBar.module.scss";
 import { FiMenu } from "react-icons/fi";
 

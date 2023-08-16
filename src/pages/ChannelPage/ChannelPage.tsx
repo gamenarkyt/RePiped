@@ -18,6 +18,8 @@ export const ChannelPage: FC = () => {
     keepPreviousData: false,
   });
 
+  console.log("rerender");
+
   useEffect(() => {
     refetch();
   }, [channel, channelId]);

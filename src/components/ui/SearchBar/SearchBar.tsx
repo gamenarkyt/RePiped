@@ -1,5 +1,4 @@
-"use client";
-import React, { ChangeEvent, FC, useState } from "react";
+import { ChangeEvent, FC, useState } from "react";
 import styles from "./SearchBar.module.scss";
 import { AiOutlineSearch } from "react-icons/ai";
 

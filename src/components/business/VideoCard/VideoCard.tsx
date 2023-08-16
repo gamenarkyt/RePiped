@@ -1,4 +1,3 @@
-"use client";
 import { FC, MouseEvent } from "react";
 import styles from "./VideoCard.module.scss";
 import { AiFillEye } from "react-icons/ai";

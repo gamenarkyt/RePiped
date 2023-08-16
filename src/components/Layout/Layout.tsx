@@ -1,16 +1,13 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import styles from "./Layout.module.scss";
-import { Header } from "components/Header/Header";
-import { Routing } from "pages";
+import { Routing } from "../../pages";
+import { Header } from "../Header/Header";
 
-type Props = {};
-
-export const Layout: FC = (props: Props) => {
+export const Layout: FC = () => {
   return (
     <div className={styles.layout}>
       <Header />
       <Routing />
-      {/* <SideBar /> */}
     </div>
   );
 };
